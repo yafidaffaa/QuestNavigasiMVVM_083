@@ -27,6 +27,7 @@ fun FormMahasiswaView(
     onSubmitClicked: (MutableList<String>) -> Unit
 ) {
     var name by rememberSaveable { mutableStateOf("") }
+    var nim by remember { mutableStateOf("") }
     var email by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
     var noHP by rememberSaveable { mutableStateOf("") }
