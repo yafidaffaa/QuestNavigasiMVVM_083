@@ -33,7 +33,7 @@ fun FormMahasiswaView(
     var noHP by rememberSaveable { mutableStateOf("") }
     var selectedGender by rememberSaveable { mutableStateOf("") }
 
-    val dataMahasiswa : MutableList<String> = mutableListOf(name, selectedGender, alamat)
+    val dataMahasiswa : MutableList<String> = mutableListOf(name, nim, selectedGender, alamat, noHP, email)
 
 
     Column (
