@@ -53,6 +53,17 @@ fun FormMahasiswaView(
 
         )
 
+        OutlinedTextField(
+            value = nim,
+            onValueChange = {nim = it},
+            placeholder = { Text("Masukan NIM") },
+            label = { Text("NIM") },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(5.dp)
+
+        )
+
         Row {
             listJK.forEach { item ->
                 Row(
