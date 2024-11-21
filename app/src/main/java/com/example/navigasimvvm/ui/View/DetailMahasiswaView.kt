@@ -23,7 +23,8 @@ fun DetailMahasiswaView(
         Pair("Nama", uiStateMahasiswa.nama),
         Pair("NIM", uiStateMahasiswa.nim),
         Pair("Jenis Kelamin", uiStateMahasiswa.gender),
-        Pair("Alamat", uiStateMahasiswa.alamat)
+        Pair("Alamat", uiStateMahasiswa.alamat),
+        Pair("No HP", uiStateMahasiswa.nohp)
 
     )
 
